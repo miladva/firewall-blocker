@@ -9,5 +9,8 @@ ufw allow from any to any port 22 proto tcp
 ufw allow from any to any port 2222 proto tcp
 ufw allow from any to any port 8443 proto tcp
 
+ufw allow from any to any port 7820 proto tcp
+ufw allow from any to any port 7820 proto udp
+
 ufw enable
 ufw reload
